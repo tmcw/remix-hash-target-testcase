@@ -1,3 +1,10 @@
+This is a testcase for what seems to be a bug in Remix. When react-router navigates
+to a page with a hash target, like `/foo#bar`, The element identified by `#bar` does
+not become the page target and any CSS that uses the `:target` selector does not
+behave correctly.
+
+---
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
